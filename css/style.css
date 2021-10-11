@@ -147,8 +147,10 @@ small {
   cursor: pointer;
 }
 .copy {
+  display:block;
   color: var(--gray);
   font-size: 10px;
+  margin-bottom:50px;
 }
 #size1 {
   height:15px;
@@ -271,7 +273,8 @@ small {
     padding-left:25px;
   }
   [type="submit"] {
-    font-weight:300;
+
+    font-weight:700;
     flex:0.1 200px;
   }
 
